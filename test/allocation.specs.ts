@@ -678,7 +678,6 @@ describe('0-1 Knapsack Tests', () => {
     let item3: TSMT$AllocatableItem = new TSMT$AllocatableItem();
     let item4: TSMT$AllocatableItem = new TSMT$AllocatableItem();
 
-    // reorder same data - alters how the value table is constructed, but same solution
     item1.name     = "item1";
     item1.capacity = 2;
     item1.payoff   = 3;
